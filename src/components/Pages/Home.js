@@ -1,4 +1,5 @@
-import "./Home.js";
+
+import "./Home.css";
 import {Container, Row, Col, Image} from 'react-bootstrap';
 import React from 'react';
 import BGIMG from "../../images/bg_img.jpg";
@@ -10,8 +11,8 @@ const Home = () => {
     
     <>
     <div>
-    <Container ClasName="bgimg" >
-    {/* <Image src={BGIMG} fluid/> */}
+    <Container  >
+    <Image src={BGIMG} className="bgimgg" fluid />
     </Container>
    
     </div>
