@@ -1,27 +1,25 @@
-import "./App.css";
-import NavBar from "./components/NavBar";
-import { BrowserRouter as Router,  Route, Routes } from "react-router-dom";
-import Home  from "./components/Pages/Home";
-import About  from "./components/Pages/About";
-import Blog  from "./components/Pages/Career";
-import Contact  from "./components/Pages/Contact";
+import "./styles.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NotFound from "./pages/NotFound";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Career from "./pages/Career";
+import Home from "./pages/Home"
+import Layout from "./components/Layout";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <Router>       
-        <NavBar />
-        <div className="pages">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </div>
-      </Router>
-  </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="career" element={<Contact />} />
+          <Route path="contact" element={<Career />} />
+          <Route path="home" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
