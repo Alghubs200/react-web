@@ -8,3 +8,8 @@ margin-right: 100px;
     margin-right: 80px;
     
 }
+.main-navbar{
+    background: transparent;
+    position: absolute;
+    z-index: -10;
+}

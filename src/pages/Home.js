@@ -1,7 +1,11 @@
+import "./Home.css"
+import BGIMG from "..//images/bgimg.jpg"
+import {Container, Image} from 'react-bootstrap'
+
 const Home = () => {
   return (
     <div className="">
-      <h1>Home123</h1>
+      <Image src={BGIMG} fluid className="bgimg" />;
     </div>
   );
 };
