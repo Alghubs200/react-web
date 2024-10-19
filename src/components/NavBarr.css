@@ -1,15 +1,19 @@
 .txt-dcr{
 text-decoration: none;
 margin-right: 100px;
+color: yellow !important;
 }
 
 .logo{
 
     margin-right: 80px;
+    color: yellow !important;
     
 }
 .main-navbar{
     background: transparent;
     position: absolute;
-    z-index: -10;
+    z-index: 1;
+    
+
 }

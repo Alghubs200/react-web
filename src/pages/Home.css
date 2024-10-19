@@ -1,4 +1,5 @@
 .bgimg{
     position: relative;
-
+background-size: cover;
+z-index: 0;
 }
