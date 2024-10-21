@@ -1,19 +1,24 @@
-.txt-dcr{
+.main-navbar .Cont-Class .txt-dcr{
 text-decoration: none;
 margin-right: 100px;
-color: yellow !important;
-}
 
+}
+.main-navbar .Cont-Class .txt-dcr{
+    color: yellow !important;
+}
+.logo-row{
+  margin-left: -90px;
+}
 .logo{
 
     margin-right: 80px;
     color: yellow !important;
-    
+  
 }
 .main-navbar{
-    background: transparent;
-    position: absolute;
-    z-index: 1;
-    
-
+    /* background: transparent; */
+    /* margin-left:-100px; */
+    font-weight: 700;
+    position: relative;
+    z-index: 20;
 }

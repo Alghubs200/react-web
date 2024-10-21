@@ -1,18 +1,34 @@
 import { Link } from "react-router-dom";
 import "./NavBarr.css";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import ReactLogo from "..//images/logo-react.png"
+import { Nav, Navbar, NavDropdown, Image, Container, Row, Col } from 'react-bootstrap';
+
 
 
 function NavBarr() {
   return (
     <Navbar expand="lg" className="main-navbar">
-      <Container>
+      <Container className="Cont-Class">
 
         <Link to='/home' className="txt-dcr logo">
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+
+          <Container>
+            <Row className="logo-row">
+              <Col>
+                <Image src={ReactLogo} fluid className="" />
+              </Col>
+              <Col>
+                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+
+              </Col>
+
+
+
+            </Row>
+
+          </Container>
+
+
         </Link>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -27,8 +43,6 @@ function NavBarr() {
 
             <Link to='/contact' className="txt-dcr">
               <Nav.Link href="#contact">Contact</Nav.Link>
-
-
             </Link>
 
             <Link to='/career' className="txt-dcr">
