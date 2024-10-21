@@ -1,19 +1,50 @@
+.navbar {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+  }
+  
+  .sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+
+  }
+
+.brand-navbr {
+margin-top: 10px;
+}
+
+.brand-navbr .navbar-brand{
+    color: yellow;
+}
+.main-navbar{
+    position: sticky;
+}
 .main-navbar .Cont-Class .txt-dcr{
 text-decoration: none;
 margin-right: 100px;
+}
 
+a .nav-link{
+    color: rgb(236, 99, 99);
 }
-.main-navbar .Cont-Class .txt-dcr{
-    color: yellow !important;
+a .nav-link:focus{
+    text-decoration: none;
+    color: red !important;
 }
+a .nav-link:hover{
+    color: red;
+}
+
+
 .logo-row{
   margin-left: -90px;
 }
 .logo{
-
     margin-right: 80px;
-    color: yellow !important;
-  
+
 }
 .main-navbar{
     /* background: transparent; */
@@ -22,3 +53,27 @@ margin-right: 100px;
     position: relative;
     z-index: 20;
 }
+
+
+
+
+
+@keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation-duration: 0.7s;
+    animation-name: fadeInDown;
+    animation-timing-function: ease-out;
+  }
