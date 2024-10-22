@@ -1,6 +1,39 @@
 .bgimg{
-    position: relative;
-background-size: cover;
+    position: absolute;
+background-size:contain;
 z-index: 0;
 margin-top: -370px;
+width: auto;
+height: 160%;
+}
+.tst{
+    position:relative ;
+    /* height: 220px; */
+    margin-top: 60px;
+    /* background-color: aqua; */
+
+}
+.tst1{
+    /* background-color: rgb(153, 93, 93); */
+    margin-top: 70px;
+    padding-left: 80px;
+}
+.tst1a1{
+    font-size: 46px;
+    font-weight: 600;
+
+}
+.tst1a2{
+    color: #16b49f;
+
+}
+
+.tst1a3{
+    font-weight: 600;
+    font-size: 17px;
+}
+.tst2{
+padding-bottom: 50px;
+    /* background-color: rgb(146, 21, 140); */
+
 }

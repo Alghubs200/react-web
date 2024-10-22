@@ -23,7 +23,7 @@ export default function Navbarr() {
   return <div className={`navbar ${stickyClass}`}>
     
 
-    <Navbar expand="lg" className="main-navbar">
+    <Navbar expand="lg" className="main-navbar ubuntu-regular">
       <Container className="Cont-Class">
 
         <Link to='/home' className="txt-dcr logo">
@@ -34,7 +34,7 @@ export default function Navbarr() {
                 <Image src={ReactLogo} fluid className="" />
               </Col>
               <Col className="brand-navbr">
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="#home">React Bootstrap</Navbar.Brand>
               </Col>
 
 
