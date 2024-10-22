@@ -2,7 +2,7 @@ import "./Home.css"
 import BGIMG from "..//images/white.jpg"
 import diamond from "..//images/diamond.gif";
 import { Image, Container, Row, Col } from 'react-bootstrap';
-
+import 'animate.css';
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
 
           <Row className="tst">
             <Col xs={12} md={6} className="tst1">
-              <p className="tst1a1 ubuntu-regular-italic">Get your ideas Designed & Developed
+              <p className="tst1a1 ubuntu-regular-italic animate__zoomInUp">Get your ideas Designed & Developed
                 <span className="tst1a2"> by the Best</span>
               </p>
 

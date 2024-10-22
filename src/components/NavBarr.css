@@ -35,6 +35,8 @@ a .nav-link{
 a .nav-link:focus{
     text-decoration: none;
     color: rgb(231, 13, 141) !important;
+    background-color: transparent;
+    
 }
 a .nav-link:hover{
     color: rgb(114, 10, 10);
