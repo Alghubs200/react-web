@@ -30,16 +30,22 @@ margin-right: 100px;
 a .nav-link{
         font-weight: 900;
         color: #16b49f;
+        border-radius: 12px;
+
 
 }
 a .nav-link:focus{
     text-decoration: none;
     color: rgb(231, 13, 141) !important;
     background-color: transparent;
+
     
 }
 a .nav-link:hover{
     color: rgb(114, 10, 10);
+    background-color:rgb(250, 1, 208);
+    border-radius: 12px;
+
 }
 
 
@@ -51,8 +57,6 @@ a .nav-link:hover{
 
 }
 .main-navbar{
-    /* background: transparent; */
-    /* margin-left:-100px; */
     font-weight: 700;
     position: relative;
     z-index: 20;
@@ -62,22 +66,3 @@ a .nav-link:hover{
 
 
 
-@keyframes fadeInDown {
-    0% {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    animation-duration: 0.7s;
-    animation-name: fadeInDown;
-    animation-timing-function: ease-out;
-  }
