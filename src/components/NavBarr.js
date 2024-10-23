@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./NavBarr.css";
 import ReactLogo from "..//images/logo-react.png"
 import { Nav, Navbar, NavDropdown, Image, Container, Row, Col } from 'react-bootstrap';
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
 export default function Navbarr() {
   const [stickyClass, setStickyClass] = useState('');
@@ -21,7 +21,7 @@ export default function Navbarr() {
   };
 
   return <div className={`navbar ${stickyClass}`}>
-    
+
 
     <Navbar expand="lg" className="main-navbar ubuntu-regular">
       <Container className="Cont-Class">
@@ -56,9 +56,7 @@ export default function Navbarr() {
 
             </Link>
 
-            <Link to='/contact' className="txt-dcr">
-              <Nav.Link href="#contact">Contact</Nav.Link>
-            </Link>
+
 
             <Link to='/career' className="txt-dcr">
               <Nav.Link href="#career">Career</Nav.Link>
@@ -69,7 +67,12 @@ export default function Navbarr() {
               <Nav.Link href="#about">About</Nav.Link>
 
             </Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+
+            <Link to='/contact' className="txt-dcr txt-cnt">
+              <Nav.Link href="#contact">Contact Us</Nav.Link>
+            </Link>
+
+            <NavDropdown title="Technologies" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -86,7 +89,7 @@ export default function Navbarr() {
     </Navbar>
 
 
-    
+
   </div>;
 }
 

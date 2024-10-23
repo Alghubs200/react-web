@@ -25,6 +25,11 @@ margin-top: 10px;
 .main-navbar .Cont-Class .txt-dcr{
 text-decoration: none;
 margin-right: 100px;
+
+}
+.txt-cnt{
+
+    width: 100px;
 }
 
 a .nav-link{
@@ -36,7 +41,7 @@ a .nav-link{
 }
 a .nav-link:focus{
     text-decoration: none;
-    color: rgb(231, 13, 141) !important;
+    color: rgb(107, 13, 231) !important;
     background-color: transparent;
 
     

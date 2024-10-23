@@ -34,6 +34,8 @@ const Home = () => {
 
 
       </section>
+      <Image src={BGIMG} fluid className="" />;
+
     </div>
 
   );
