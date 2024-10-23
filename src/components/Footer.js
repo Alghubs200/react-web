@@ -2,7 +2,7 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
 import "./Footer.css"
 import jcslogo from "..//images/Jclick-White.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { byPrefixAndName } from '@awesome.me/kit-KIT_CODE/icons'
+
 
 const Footer = () => {
   return <footer>
@@ -14,8 +14,7 @@ const Footer = () => {
     <Image src={jcslogo} fluid className="" />
     <div className='logo-dtls'>
       <p>
-      <FontAwesomeIcon icon={faEnvelope} />
-      </p>
+      <FontAwesomeIcon icon="fa-regular fa-envelope" /></p>
     </div>
 
     </Col>
