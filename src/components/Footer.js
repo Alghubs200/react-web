@@ -1,5 +1,6 @@
 import { Image, Container, Row, Col } from 'react-bootstrap';
 import "./Footer.css"
+import jcslogo from "..//images/Jclick-White.png";
 
 const Footer = () => {
   return <footer>
@@ -8,7 +9,8 @@ const Footer = () => {
 <Container fluid className='footer-class'>
   <Row className=''>
     <Col xs={12} md={4}>
-1
+    <Image src={jcslogo} fluid className="" />;
+
     </Col>
     <Col xs={12} md={2}>
 2
