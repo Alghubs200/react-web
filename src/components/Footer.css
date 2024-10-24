@@ -18,13 +18,19 @@ margin-left: -25px;
 }
 .unstyle li{
 
-margin-bottom: 6px;
+margin-bottom: 12px;
 }
+
 
 .unstyle li span{
-
-    margin-left: 15px;
+margin-left: 15px;
 }
+
+
+.unstyle1 li{
+list-style-type: none;
+margin-bottom: 14px;
+ }
 .linking{
 text-decoration: none;
 color: black;

@@ -37,7 +37,7 @@ const Footer = () => {
     <Col xs={12} md={2}>
      <div className='footercol2'>
       <h5>QUICK LINKS</h5>
-      <ul className='unstyle foot2ul'>
+      <ul className='unstyle1 foot2ul'>
         <li className='footer2li'><Link to>Home</Link></li>
         <li className='footer2li'><Link to>About</Link></li>
         <li className='footer2li'><Link to>Careers</Link></li>
@@ -49,7 +49,7 @@ const Footer = () => {
     <Col xs={12} md={2}>
     <div className='footercol2'>
       <h5>TECHNOLOGIES</h5>
-      <ul className='unstyle foot2ul'>
+      <ul className='unstyle1 foot2ul'>
         <li className='footer2li'><Link to>PHP</Link></li>
         <li className='footer2li'><Link to>Flutter</Link></li>
         <li className='footer2li'><Link to>React Native</Link></li>
@@ -61,10 +61,32 @@ const Footer = () => {
      </div>
     </Col>
     <Col xs={12} md={2}>
-4
+    <div className='footercol2'>
+      <h5>EXPERTISE</h5>
+      <ul className='unstyle1 foot2ul'>
+        <li className='footer2li'><Link to>PHP</Link></li>
+        <li className='footer2li'><Link to>Flutter</Link></li>
+        <li className='footer2li'><Link to>React Native</Link></li>
+        <li className='footer2li'><Link to>Java</Link></li>
+        <li className='footer2li'><Link to>.Net</Link></li>       
+        <li className='footer2li'><Link to>Kotlin</Link></li>     
+        <li className='footer2li'><Link to>Swift</Link></li>     
+      </ul>
+     </div>
     </Col>
     <Col xs={12} md={2}>
-5
+    <div className='footercol2'>
+      <h5>SERVICES</h5>
+      <ul className='unstyle1 foot2ul'>
+        <li className='footer2li'><Link to>PHP</Link></li>
+        <li className='footer2li'><Link to>Flutter</Link></li>
+        <li className='footer2li'><Link to>React Native</Link></li>
+        <li className='footer2li'><Link to>Java</Link></li>
+        <li className='footer2li'><Link to>.Net</Link></li>       
+        <li className='footer2li'><Link to>Kotlin</Link></li>     
+        <li className='footer2li'><Link to>Swift</Link></li>     
+      </ul>
+     </div>
     </Col>
 
 
