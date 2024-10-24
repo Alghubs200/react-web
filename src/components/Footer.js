@@ -4,6 +4,7 @@ import jcslogo from "..//images/Jclick-White.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
+
 const Footer = () => {
   return <footer>
 
@@ -13,8 +14,8 @@ const Footer = () => {
     <Col xs={12} md={4}>
     <Image src={jcslogo} fluid className="" />
     <div className='logo-dtls'>
-      <p>
-      <FontAwesomeIcon icon="fa-regular fa-envelope" /></p>
+    
+      
     </div>
 
     </Col>
