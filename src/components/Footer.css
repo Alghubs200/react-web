@@ -9,5 +9,17 @@ padding: 105px;
 }
 .logo-dtls{
     margin-top: 38px;
-    margin-left: 10px;
+    
+}
+.unstyle{
+list-style-type: none;
+}
+.unstyle li{
+
+margin-bottom: 35px;
+}
+
+.unstyle li span{
+
+    
 }

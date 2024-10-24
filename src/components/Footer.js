@@ -15,8 +15,20 @@ const Footer = () => {
     <Col xs={12} md={4}>
     <Image src={jcslogo} fluid className="" />
     <div className='logo-dtls'>
-      
-    {/* <FontAwesomeIcon icon={faEnvelope} /> */}
+      <ul className='unstyle'>
+        <li>
+        <FontAwesomeIcon icon={faEnvelope} />
+         <span>info@jclicksolutions</span>
+        </li>
+        <li>
+        <FontAwesomeIcon icon={faEnvelope} />
+         <span>info@jclicksolutions</span>
+        </li>
+        <li>
+        <FontAwesomeIcon icon={faEnvelope} />
+         <span>info@jclicksolutions</span>
+        </li>
+      </ul>
     </div>
 
     </Col>
