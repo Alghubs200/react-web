@@ -36,19 +36,29 @@ const Footer = () => {
     </Col>
     <Col xs={12} md={2}>
      <div className='footercol2'>
-      <h6>QUICK LINKS</h6>
-      <ul className='unstyle'>
+      <h5>QUICK LINKS</h5>
+      <ul className='unstyle foot2ul'>
         <li className='footer2li'><Link to>Home</Link></li>
         <li className='footer2li'><Link to>About</Link></li>
         <li className='footer2li'><Link to>Careers</Link></li>
         <li className='footer2li'><Link to>Contact Us</Link></li>
-        <li className='footer2li'><Link to>Blogs</Link></li>
-       
+        <li className='footer2li'><Link to>Blogs</Link></li>     
       </ul>
      </div>
     </Col>
     <Col xs={12} md={2}>
-3
+    <div className='footercol2'>
+      <h5>TECHNOLOGIES</h5>
+      <ul className='unstyle foot2ul'>
+        <li className='footer2li'><Link to>PHP</Link></li>
+        <li className='footer2li'><Link to>Flutter</Link></li>
+        <li className='footer2li'><Link to>React Native</Link></li>
+        <li className='footer2li'><Link to>Java</Link></li>
+        <li className='footer2li'><Link to>.Net</Link></li>       
+        <li className='footer2li'><Link to>Kotlin</Link></li>     
+        <li className='footer2li'><Link to>Swift</Link></li>     
+      </ul>
+     </div>
     </Col>
     <Col xs={12} md={2}>
 4

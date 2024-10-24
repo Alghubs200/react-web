@@ -5,7 +5,8 @@ background-color: rgba(102, 15, 112, 0.473);
 position: relative;
 }
 .footer-class{
-padding: 105px;
+padding: 80px;
+padding-top: 37px;
 }
 .logo-dtls{
     margin-top: 38px;
@@ -17,7 +18,7 @@ margin-left: -25px;
 }
 .unstyle li{
 
-margin-bottom: 15px;
+margin-bottom: 6px;
 }
 
 .unstyle li span{
@@ -33,4 +34,13 @@ color: black;
     margin-left: 7px;
     font-weight: 700;
     font-size: 100%;
+}
+.foot2ul{
+    margin-top: 30px;
+}
+.footer2li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+
 }
