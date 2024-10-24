@@ -30,6 +30,7 @@ const Footer = () => {
         </Link>
         </li>
       </ul>
+      <p className='copyright'>© 2024 Jcs Info Tech. All Rights Reserved.</p>
     </div>
 
     </Col>

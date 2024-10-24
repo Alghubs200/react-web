@@ -1,7 +1,7 @@
 .footer-class{
 
 height: 400px;
-background-color: aqua;
+/* background-color: aqua; */
 position: relative;
 }
 .footer-class{
@@ -28,4 +28,9 @@ margin-bottom: 15px;
 text-decoration: none;
 color: black;
 
+}
+.copyright{
+    margin-left: 7px;
+    font-weight: 700;
+    font-size: 100%;
 }
