@@ -35,7 +35,17 @@ const Footer = () => {
 
     </Col>
     <Col xs={12} md={2}>
-2
+     <div className='footercol2'>
+      <h6>QUICK LINKS</h6>
+      <ul className='unstyle'>
+        <li className='footer2li'><Link to>Home</Link></li>
+        <li className='footer2li'><Link to>About</Link></li>
+        <li className='footer2li'><Link to>Careers</Link></li>
+        <li className='footer2li'><Link to>Contact Us</Link></li>
+        <li className='footer2li'><Link to>Blogs</Link></li>
+       
+      </ul>
+     </div>
     </Col>
     <Col xs={12} md={2}>
 3
