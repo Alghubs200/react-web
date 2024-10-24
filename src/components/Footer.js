@@ -2,9 +2,8 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
 import "./Footer.css"
 import jcslogo from "..//images/Jclick-White.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
-
+import { faEnvelope, faPhone, faGlobe} from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return <footer>
@@ -21,12 +20,14 @@ const Footer = () => {
          <span>info@jclicksolutions</span>
         </li>
         <li>
-        <FontAwesomeIcon icon={faEnvelope} />
-         <span>info@jclicksolutions</span>
+        <FontAwesomeIcon icon={faPhone} />
+         <span>91 9025357947</span>
         </li>
         <li>
-        <FontAwesomeIcon icon={faEnvelope} />
-         <span>info@jclicksolutions</span>
+        <Link to='https://www.jclicksolutions.in/' className='linking'>
+        <FontAwesomeIcon icon={faGlobe} />
+        <span>Jclicksolutions</span>        
+        </Link>
         </li>
       </ul>
     </div>
