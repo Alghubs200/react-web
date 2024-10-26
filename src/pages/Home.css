@@ -43,6 +43,12 @@ padding-bottom: 50px;
 .core-section{
     height: 500px;
     background-color: black;
-    position: relative;
+    position: relative; 
+}
+.core-cont{
+margin-left: 105px;
+}
+.core-col{
+
     
 }

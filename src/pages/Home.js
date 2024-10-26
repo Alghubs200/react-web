@@ -42,12 +42,12 @@ const Home = () => {
 
         <Container fluid>
           <Row className='core-services'>
-            <Col xs={12} md={11}>
-            <h1>
+            <Col xs={12} md={9} className="core-col">
+            <h1 className="core-cont">
               Core Services
             </h1>
             </Col>
-            <Col xs={12} md={11}>
+            <Col xs={12} md={3}>
             </Col>
           </Row>
         </Container>
