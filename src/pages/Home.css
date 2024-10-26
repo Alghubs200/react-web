@@ -35,5 +35,14 @@ height: 150%;
 .tst2{
 padding-bottom: 50px;
     /* background-color: rgb(146, 21, 140); */
-
+}
+.bgimg1{
+    position: absolute;
+    z-index: -2;
+}
+.core-section{
+    height: 500px;
+    background-color: black;
+    position: relative;
+    
 }

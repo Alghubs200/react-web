@@ -20,13 +20,13 @@ const Home = () => {
               </p>
 
               <p className="ubuntu-regular-italic tst1a3">
-              We, <span className="tst1a2">JCians</span> mainly focus on perfection and innovation as our core essentials, in design and development.
+                We, <span className="tst1a2">JCians</span> mainly focus on perfection and innovation as our core essentials, in design and development.
               </p>
             </Col>
             <Col xs={12} md={6} className="tst2">
 
-             <Image src={diamond} fluid className="tst2a1" />;
-               
+              <Image src={diamond} fluid className="tst2a1" />;
+
             </Col>
           </Row>
 
@@ -34,7 +34,28 @@ const Home = () => {
 
 
       </section>
-      <Image src={BGIMG} fluid className="" />;
+
+
+
+      <section className='core-section'>
+      <Image src={BGIMG} fluid className="bgimg1" />
+
+        <Container fluid>
+          <Row className='core-services'>
+            <Col xs={12} md={11}>
+            <h1>
+              Core Services
+            </h1>
+            </Col>
+            <Col xs={12} md={11}>
+            </Col>
+          </Row>
+        </Container>
+
+
+      </section>
+
+
 
     </div>
 
