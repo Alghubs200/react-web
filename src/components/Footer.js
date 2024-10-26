@@ -64,13 +64,14 @@ const Footer = () => {
     <div className='footercol2'>
       <h5>EXPERTISE</h5>
       <ul className='unstyle1 foot2ul'>
-        <li className='footer2li'><Link to>PHP</Link></li>
+        <li className='footer2li'><Link to>React JS</Link></li>
+        <li className='footer2li'><Link to>Angular JS</Link></li>
         <li className='footer2li'><Link to>Flutter</Link></li>
-        <li className='footer2li'><Link to>React Native</Link></li>
-        <li className='footer2li'><Link to>Java</Link></li>
-        <li className='footer2li'><Link to>.Net</Link></li>       
-        <li className='footer2li'><Link to>Kotlin</Link></li>     
-        <li className='footer2li'><Link to>Swift</Link></li>     
+        <li className='footer2li'><Link to>Laravel</Link></li>
+        <li className='footer2li'><Link to>Python</Link></li>       
+        <li className='footer2li'><Link to>Node JS</Link></li>     
+        <li className='footer2li'><Link to>My SQL</Link></li>     
+        <li className='footer2li'><Link to>Mongo DB</Link></li>     
       </ul>
      </div>
     </Col>
@@ -78,13 +79,13 @@ const Footer = () => {
     <div className='footercol2'>
       <h5>SERVICES</h5>
       <ul className='unstyle1 foot2ul'>
-        <li className='footer2li'><Link to>PHP</Link></li>
-        <li className='footer2li'><Link to>Flutter</Link></li>
+        <li className='footer2li'><Link to>Web App Development</Link></li>
+        <li className='footer2li'><Link to>Mobile App Development</Link></li>
         <li className='footer2li'><Link to>React Native</Link></li>
-        <li className='footer2li'><Link to>Java</Link></li>
-        <li className='footer2li'><Link to>.Net</Link></li>       
-        <li className='footer2li'><Link to>Kotlin</Link></li>     
-        <li className='footer2li'><Link to>Swift</Link></li>     
+        <li className='footer2li'><Link to>Digital Marketing</Link></li>
+        <li className='footer2li'><Link to>IOT Development</Link></li>       
+        <li className='footer2li'><Link to>Blockchain Development</Link></li>     
+        <li className='footer2li'><Link to>Artificial Intelligence Solutions</Link></li>     
       </ul>
      </div>
     </Col>
