@@ -32,7 +32,7 @@ export default function Navbarr() {
           <Container>
             <Row className="logo-row">
               
-            <Image src={jcslogo} fluid className="" />
+            <Image src={jcslogo} fluid className="jclicklogo" />
 
 
 
