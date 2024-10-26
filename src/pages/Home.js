@@ -1,5 +1,5 @@
 import "./Home.css"
-import BGIMG from "..//images/white.jpg"
+import BGIMG from "..//images/bgm3.jpg"
 import diamond from "..//images/diamond.gif";
 import { Image, Container, Row, Col } from 'react-bootstrap';
 import 'animate.css';
@@ -7,9 +7,7 @@ import 'animate.css';
 const Home = () => {
   return (
     <div className="">
-
-      <Image src={BGIMG} fluid className="bgimg" />;
-
+      <Image src={BGIMG} fluid className="bgimg" />
       <section className="get-ideas">
         <Container fluid className="">
 
@@ -25,7 +23,7 @@ const Home = () => {
             </Col>
             <Col xs={12} md={6} className="tst2">
 
-              <Image src={diamond} fluid className="tst2a1" />;
+              {/* <Image src={diamond} fluid className="tst2a1" />; */}
 
             </Col>
           </Row>
@@ -34,7 +32,7 @@ const Home = () => {
 
       </section>
       <section className='core-section'>
-      <Image src={BGIMG} fluid className="bgimg1" />
+      {/* <Image src={BGIMG} fluid className="bgimg1" /> */}
 
         <Container>
           <Row className='core-services'>

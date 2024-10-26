@@ -3,6 +3,7 @@ import "./NavBarr.css";
 import ReactLogo from "..//images/logo-react.png"
 import { Nav, Navbar, NavDropdown, Image, Container, Row, Col } from 'react-bootstrap';
 import React, { useState, useEffect } from 'react';
+import jcslogo from "..//images/Jclick-White.png";
 
 export default function Navbarr() {
   const [stickyClass, setStickyClass] = useState('');
@@ -30,12 +31,20 @@ export default function Navbarr() {
 
           <Container>
             <Row className="logo-row">
-              <Col>
+              
+            <Image src={jcslogo} fluid className="" />
+
+
+
+
+
+
+              {/* <Col>
                 <Image src={ReactLogo} fluid className="" />
               </Col>
               <Col className="brand-navbr">
                 <Navbar.Brand href="#home">React Bootstrap</Navbar.Brand>
-              </Col>
+              </Col> */}
 
 
 

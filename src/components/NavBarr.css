@@ -16,9 +16,7 @@
 margin-top: 10px;
 }
 
-.brand-navbr .navbar-brand{
-    color: rgb(0, 236, 39);
-}
+
 .main-navbar{
     position: sticky;
 }
@@ -34,7 +32,7 @@ margin-right: 100px;
 
 a .nav-link{
         font-weight: 900;
-        color: #16b49f;
+        color: rgb(160,228,100);
         border-radius: 12px;
 }
 .nav-drop-tittle{
@@ -51,7 +49,7 @@ a .nav-link:focus{
 }
 a .nav-link:hover{
     color: rgb(114, 10, 10);
-    background-color:rgb(250, 1, 208);
+    background-color:rgb(160,228,100);
     border-radius: 12px;
 
 }

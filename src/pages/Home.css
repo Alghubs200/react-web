@@ -3,9 +3,11 @@
 background-size:contain;
 z-index: 0;
 margin-top: -370px;
-width: auto;
-height: 150%;
+width: 100%;
+height: 189%;
+background-color: rgba(0, 255, 255, 0.116);
 }
+
 .tst{
     position:relative ;
     /* height: 220px; */
@@ -21,16 +23,19 @@ height: 150%;
 .tst1a1{
     font-size: 46px;
     font-weight: 600;
+    color: rgb(255, 255, 255);
  
 }
 .tst1a2{
-    color: #16b49f;
+    color: rgb(160,228,100);
 
 }
 
 .tst1a3{
     font-weight: 600;
     font-size: 17px;
+    color: rgb(255, 255, 255);
+
 }
 .tst2{
 padding-bottom: 50px;
@@ -39,19 +44,24 @@ padding-bottom: 50px;
 .bgimg1{
     position: absolute;
     z-index: -2;
+    /* height: 600px;
+    width: 100%; */
 }
 .core-section{
     height: 500px;
     /* background-color: black; */
     position: relative; 
+    margin-top: 65px;
 }
 .core-cont{
 color: white;
 }
 .services-span{
-    color: #16b49f;
+    color: rgb(160,228,100);
   
 }
 .core-col{
     background-image: linear-gradient(to right, rgb(39, 38, 38) , rgba(0, 0, 0, 0));
+    border-left: 3px;
+    border-color: rgb(160,228,100);
 }
