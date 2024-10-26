@@ -32,11 +32,7 @@ const Home = () => {
 
         </Container>
 
-
       </section>
-
-
-
       <section className='core-section'>
       <Image src={BGIMG} fluid className="bgimg1" />
 
@@ -44,19 +40,14 @@ const Home = () => {
           <Row className='core-services'>
             <Col xs={12} md={9} className="core-col">
             <h1 className="core-cont">
-              Core Services
+              Core <span className="services-span">Services</span>
             </h1>
             </Col>
             <Col xs={12} md={3}>
             </Col>
           </Row>
         </Container>
-
-
       </section>
-
-
-
     </div>
 
   );

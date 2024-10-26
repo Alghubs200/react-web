@@ -42,13 +42,16 @@ padding-bottom: 50px;
 }
 .core-section{
     height: 500px;
-    background-color: black;
+    /* background-color: black; */
     position: relative; 
 }
 .core-cont{
-
+color: white;
+}
+.services-span{
+    color: #16b49f;
+  
 }
 .core-col{
-    
-    background-color: blue;
+    background-image: linear-gradient(to right, rgb(39, 38, 38) , rgba(0, 0, 0, 0));
 }

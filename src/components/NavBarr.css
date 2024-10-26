@@ -36,7 +36,10 @@ a .nav-link{
         font-weight: 900;
         color: #16b49f;
         border-radius: 12px;
+}
+.nav-drop-tittle{
 
+    color: #16b49f;
 
 }
 a .nav-link:focus{

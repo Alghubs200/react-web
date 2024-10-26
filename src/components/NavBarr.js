@@ -72,7 +72,7 @@ export default function Navbarr() {
               <Nav.Link href="#contact">Contact Us</Nav.Link>
             </Link>
 
-            <NavDropdown title="Technologies" id="basic-nav-dropdown">
+            <NavDropdown title="Technologies" id="basic-nav-dropdown" className="nav-drop-tittle">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
