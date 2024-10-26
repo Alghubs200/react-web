@@ -40,7 +40,7 @@ const Home = () => {
       <section className='core-section'>
       <Image src={BGIMG} fluid className="bgimg1" />
 
-        <Container fluid>
+        <Container>
           <Row className='core-services'>
             <Col xs={12} md={9} className="core-col">
             <h1 className="core-cont">
