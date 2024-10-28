@@ -41,7 +41,12 @@ const Home = () => {
               Core <span className="services-span">Services</span>
             </h1>
             </Col>
-            <Col xs={12} md={3}>
+            <Col xs={12} md={3} className="">
+             <div className="book-consult">
+              <p>
+                Book Free Consultation
+              </p>
+             </div>
             </Col>
           </Row>
         </Container>
