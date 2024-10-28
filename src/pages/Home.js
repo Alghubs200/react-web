@@ -55,12 +55,23 @@ const Home = () => {
         <Container>
           <p className="core-para">We’re all about bringing your ideas to life through innovative, tailor-made digital solutions. From sleek websites to engaging mobile apps and effective digital marketing strategies, we have everything you need to grow in today’s fast-paced digital world. Our experts don’t just build for today—we build with tomorrow in mind. Looking for design, development, or marketing solutions? Capecom is your partner for success. Ready to create something amazing?</p>
         </Container>
+
+      </section>
+      <Container fluid className="blank">
         <Container fluid className="box-contaienr">
           <Row className='mt-5'>
             <Col xs={12} md={3} className="corebox1 ">
               <div className="corebox">
-                <FontAwesomeIcon icon={faGlobe} className="globe m-2" size="3x"/>
-
+                <Row>
+                  <Col>
+                    <FontAwesomeIcon icon={faGlobe} className="globe m-2" size="3x" />
+                  </Col>
+                  <Col>
+                    <p>
+                      Web Development
+                    </p>
+                  </Col>
+                </Row>
               </div>
             </Col>
             <Col xs={12} md={3} className="corebox2 ">
@@ -77,9 +88,6 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-      </section>
-      <Container className="blank">
-      
       </Container>
 
 
