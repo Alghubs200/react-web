@@ -58,20 +58,14 @@ const Home = () => {
 
       </section>
       <Container fluid className="blank">
-        <Container fluid className="box-contaienr">
+        <Container className="box-contaienr">
           <Row className='mt-5'>
             <Col xs={12} md={3} className="corebox1 ">
-              <div className="corebox">
-                <Row>
-                  <Col>
+              <div className="corebox">    
                     <FontAwesomeIcon icon={faGlobe} className="globe m-2" size="3x" />
-                  </Col>
-                  <Col>
                     <p>
                       Web Development
                     </p>
-                  </Col>
-                </Row>
               </div>
             </Col>
             <Col xs={12} md={3} className="corebox2 ">
@@ -89,8 +83,6 @@ const Home = () => {
           </Row>
         </Container>
       </Container>
-
-
     </div>
 
   );
