@@ -61,11 +61,21 @@ const Home = () => {
         <Container className="box-contaienr">
           <Row className='mt-5'>
             <Col xs={12} md={3} className="corebox1 ">
-              <div className="corebox">    
-                    <FontAwesomeIcon icon={faGlobe} className="globe m-2" size="3x" />
-                    <p>
-                      Web Development
-                    </p>
+              <div className="corebox">
+                <Container>
+                  <Row>
+                    <Col xs={3} md={3}>
+                      <FontAwesomeIcon icon={faGlobe} className="globe m-2" size="3x" />
+
+                    </Col>
+                    <Col xs={9} md={9}>
+                      <p>
+                        Web Development
+                      </p>
+                    </Col>
+
+                  </Row>
+                </Container>
               </div>
             </Col>
             <Col xs={12} md={3} className="corebox2 ">
