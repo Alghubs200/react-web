@@ -4,7 +4,7 @@ import diamond from "..//images/diamond.gif";
 import { Image, Container, Row, Col } from 'react-bootstrap';
 import 'animate.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   return (
@@ -62,13 +62,13 @@ const Home = () => {
           <Row className='mt-5'>
             <Col xs={12} md={3} className="corebox1 ">
               <div className="corebox">
-                <Container>
+                <Container fluid>
                   <Row>
-                    <Col xs={3} md={3}>
+                    <Col xs={3} md={3} className="">
                       <FontAwesomeIcon icon={faGlobe} className="globe m-2" size="3x" />
 
                     </Col>
-                    <Col xs={9} md={9}>
+                    <Col xs={9} md={9} className="mt-3 corepara">
                       <p>
                         Web Development
                       </p>
@@ -76,10 +76,32 @@ const Home = () => {
 
                   </Row>
                 </Container>
+                <p className="ms-2">
+                  Your website should be your strongest asset! Our web development team crafts robust, secure, and scalable solutions tailored to your business needs. Let’s take your digital presence to new heights with a custom-built website
+                </p>
+                <p className="ms-5">Explore<span ><FontAwesomeIcon icon={faArrowRight} /></span></p>
               </div>
             </Col>
             <Col xs={12} md={3} className="corebox2 ">
               <div className="corebox">
+              <Container fluid>
+                  <Row>
+                    <Col xs={3} md={3} className="">
+                      <FontAwesomeIcon icon={faGlobe} className="globe m-2" size="3x" />
+
+                    </Col>
+                    <Col xs={9} md={9} className="mt-3 corepara">
+                      <p>
+                      Mobile Development
+                      </p>
+                    </Col>
+
+                  </Row>
+                </Container>
+                <p className="ms-2">
+                Your customers are always on the move, and your business should be too. We design mobile apps that engage users and offer seamless experiences across all devices. Let’s get your app out there!
+                </p>
+                <p className="ms-5">Explore<span ><FontAwesomeIcon icon={faArrowRight} /></span></p>
               </div>
             </Col>
             <Col xs={12} md={3} className="corebox3 ">
