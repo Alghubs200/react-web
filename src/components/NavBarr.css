@@ -3,20 +3,16 @@
     z-index: 999;
     width: 100%;
   }
-  
   .sticky-nav {
     position: fixed;
     top: 0;
     left: 0;
     background-color: rgb(26, 0, 41);
   }
-
 .brand-navbr {
 margin-top: 10px;
 }
-
 .jclicklogo{
-
     margin-left: 50px;
 }
 .main-navbar{
@@ -25,44 +21,43 @@ margin-top: 10px;
 .main-navbar .Cont-Class .txt-dcr{
 text-decoration: none;
 margin-right: 100px;
-
 }
 .txt-cnt{
 
     width: 100px;
 }
-
 a .nav-link{
         font-weight: 900;
         color: rgb(160,228,100);
         border-radius: 12px;
 }
-.nav-drop-tittle{
+.nav-link :active{
+    color: yellow;
+}
+#basic-nav-dropdown{
 
-    color: #16b49f;
-
+    color: rgb(160,228,100);
+}
+#basic-nav-dropdown:hover{
+    background-color: rgb(160,228,100);
+    border-radius: 12px;
+    color: rgb(114, 10, 10);
 }
 a .nav-link:focus{
     text-decoration: none;
     color: rgb(107, 13, 231) !important;
     background-color: transparent;
-
-    
 }
 a .nav-link:hover{
     color: rgb(114, 10, 10);
     background-color:rgb(160,228,100);
     border-radius: 12px;
-
 }
-
-
 .logo-row{
   margin-left: -90px;
 }
 .logo{
     margin-right: 80px;
-
 }
 .main-navbar{
     font-weight: 700;

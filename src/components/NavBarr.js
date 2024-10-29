@@ -31,8 +31,8 @@ export default function Navbarr() {
 
           <Container>
             <Row className="logo-row">
-              
-            <Image src={jcslogo} fluid className="jclicklogo" />
+
+              <Image src={jcslogo} fluid className="jclicklogo" />
 
 
 
@@ -81,17 +81,21 @@ export default function Navbarr() {
               <Nav.Link href="#contact">Contact Us</Nav.Link>
             </Link>
 
-            <NavDropdown title="Technologies" id="basic-nav-dropdown" className="nav-drop-tittle">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+            <div className="nav-drop-tittle">
+              <NavDropdown title="Technologies" id="basic-nav-dropdown" >
+                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  Another action
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">
+                  Separated link
+                </NavDropdown.Item>
+              </NavDropdown>
+            </div>
+
+
           </Nav>
         </Navbar.Collapse>
       </Container>

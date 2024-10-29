@@ -4,7 +4,7 @@ import diamond from "..//images/diamond.gif";
 import { Image, Container, Row, Col } from 'react-bootstrap';
 import 'animate.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe, faArrowRight,faMobile,faCloud} from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   return (
@@ -87,7 +87,7 @@ const Home = () => {
               <Container fluid>
                   <Row>
                     <Col xs={3} md={3} className="">
-                      <FontAwesomeIcon icon={faGlobe} className="globe m-2" size="3x" />
+                    <FontAwesomeIcon icon={faMobile} className="globe m-2" size="3x"/>
 
                     </Col>
                     <Col xs={9} md={9} className="mt-3 corepara">
@@ -109,11 +109,11 @@ const Home = () => {
               <Container fluid>
                   <Row>
                     <Col xs={3} md={3} className="">
-                      <FontAwesomeIcon icon={faGlobe} className="globe m-2" size="3x" />
+                    <FontAwesomeIcon icon={faCloud} className="globe m-2" size="3x" />
 
                     </Col>
                     <Col xs={9} md={9} className="mt-3 corepara">
-                      <p>
+                      <p className="ms-2">
                         Saas Development
                       </p>
                     </Col>
@@ -143,7 +143,7 @@ const Home = () => {
                   </Row>
                 </Container>
                 <p className="ms-2">
-                Get noticed online with smart, data-driven digital marketing. From SEO to social media campaigns, we help you connect with your audience and turn clicks into customers. Ready to see your brand soar?
+                  Get noticed online with smart, data-driven digital marketing. From SEO to social media campaigns, we help you connect with your audience and turn clicks into customers. Ready to see your brand soar?
                 </p>
                 <p className="ms-5">Explore<span ><FontAwesomeIcon icon={faArrowRight} /></span></p>
               </div>
