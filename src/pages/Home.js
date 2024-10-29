@@ -106,10 +106,46 @@ const Home = () => {
             </Col>
             <Col xs={12} md={3} className="corebox3 ">
               <div className="corebox">
+              <Container fluid>
+                  <Row>
+                    <Col xs={3} md={3} className="">
+                      <FontAwesomeIcon icon={faGlobe} className="globe m-2" size="3x" />
+
+                    </Col>
+                    <Col xs={9} md={9} className="mt-3 corepara">
+                      <p>
+                        Saas Development
+                      </p>
+                    </Col>
+
+                  </Row>
+                </Container>
+                <p className="ms-2">
+                Developing a SaaS product means building software that never stops delivering. Our team creates scalable, user-friendly solutions that solve real-world problems and grow with your business. Ready to take the leap into SaaS? Let’s build something that grows with your business.
+                </p>
+                <p className="ms-5">Explore<span ><FontAwesomeIcon icon={faArrowRight} /></span></p>
               </div>
             </Col>
             <Col xs={12} md={3} className="corebox4 ">
               <div className="corebox">
+              <Container fluid>
+                  <Row>
+                    <Col xs={3} md={3} className="">
+                      <FontAwesomeIcon icon={faGlobe} className="globe m-2" size="3x" />
+
+                    </Col>
+                    <Col xs={9} md={9} className="mt-3 corepara">
+                      <p>
+                        Digital Marketing
+                      </p>
+                    </Col>
+
+                  </Row>
+                </Container>
+                <p className="ms-2">
+                Get noticed online with smart, data-driven digital marketing. From SEO to social media campaigns, we help you connect with your audience and turn clicks into customers. Ready to see your brand soar?
+                </p>
+                <p className="ms-5">Explore<span ><FontAwesomeIcon icon={faArrowRight} /></span></p>
               </div>
             </Col>
           </Row>

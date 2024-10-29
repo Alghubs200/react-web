@@ -4,7 +4,7 @@ background-size:contain;
 z-index: 0;
 margin-top: -370px;
 width: 100%;
-height: 157.2%;
+height: 157.7%;
 max-height: auto;
 background-color: rgba(0, 255, 255, 0.116);
 }
@@ -95,25 +95,36 @@ margin-left: -19px;
 }
 .corebox1{
    height: 350px;
- background-color: aqua;  
+ /* background-color: aqua;   */
 }
 .corebox2{
     height: 350px;
-  background-color: rgb(110, 196, 13);  
+  /* background-color: rgb(110, 196, 13);   */
  }
  .corebox3{
     height: 350px;
-  background-color: aqua;  
+  /* background-color: aqua;   */
  }
  .corebox4{
     height: 350px;
-  background-color: rgb(196, 19, 202);  
+  /* background-color: rgb(196, 19, 202);   */
  }
 .corebox{
-margin-right: 10px;
-background-color: red;
+margin-right: 4px;
+background-color: rgb(160,228,100);
 height: 350px;
+border-radius: 15px;
 }
+.corebox{
+
+    transition: transform 250ms;
+
+}
+.corebox:hover{
+    background-color: blueviolet;
+    transform: translateY(10px);
+}
+
 .blank{
 min-height: 410px;
 max-height: auto;
@@ -122,6 +133,6 @@ background-color: black;
 
 .corepara{
     margin-left: -1px;
-    font-size: 110%;
+    font-size: 101%;
     font-weight: bold;
 }
