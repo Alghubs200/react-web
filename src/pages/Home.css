@@ -117,7 +117,7 @@ border-radius: 15px;
 }
 .corebox{
 
-    transition: transform 250ms;
+    transition: transform 550ms;
 
 }
 .corebox:hover{
