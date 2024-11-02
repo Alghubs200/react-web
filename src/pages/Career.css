@@ -6,3 +6,17 @@ position: relative;
 z-index: 1;
 top: -90px;
 }
+
+.jrow{
+
+padding-top: 210px;
+}
+.jcol1{
+    background-color: brown;
+    height: 400px;
+}
+
+.jcol2{
+    background-color: rgb(255, 193, 193);
+    height: 400px;
+}
