@@ -1,5 +1,8 @@
 .jcian{
- height: 222px;
-background-color: blueviolet;
-position: absolute;
+ height: 722px;
+ background-image: linear-gradient(to right, rgb(2, 2, 2) , rgb(1, 39, 61));
+
+position: relative;
+z-index: 1;
+top: -90px;
 }

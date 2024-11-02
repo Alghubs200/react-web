@@ -7,7 +7,8 @@ const Career = () => {
       <section className="">
 
         <Container fluid className='jcian'>
-          ddd
+          
+    
         </Container>
 
       </section>
