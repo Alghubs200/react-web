@@ -6,17 +6,31 @@ position: relative;
 z-index: 1;
 top: -90px;
 }
-
 .jrow{
-
 padding-top: 210px;
 }
 .jcol1{
-    background-color: brown;
+    /* background-color: brown; */
+    height: 400px;
+    font-weight:bold;
+    margin-top: 50px;
+    color: white;
+}
+.jcol2{
+    /* background-color: rgb(255, 193, 193); */
     height: 400px;
 }
+.BJCian{
+    font-size: 46px;
+    font-weight: 600;
 
-.jcol2{
-    background-color: rgb(255, 193, 193);
-    height: 400px;
+}
+.jcol1 p{
+    font-size: 22px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+.career1{
+    margin-top: -90px;
+    margin-left: 70px;
 }
