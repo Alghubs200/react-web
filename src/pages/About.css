@@ -1,5 +1,10 @@
 .abt{
-height: 500px;
-background-color: blueviolet;
+    height: 750px;
+    background-image: linear-gradient(to right, rgb(2, 2, 2) , rgb(1, 39, 61));
+   margin-bottom: -100px;
+   position: relative;
+   z-index: 1;
+   top: -90px;
+   max-height: auto;
 
 }

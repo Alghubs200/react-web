@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
   return (
-    <Container className="abt">
+    <Container fluid className="abt">
     
     </Container>
   );
