@@ -13,11 +13,11 @@ const Career = () => {
             <Row className="jrow">
               <Col xs={12} md={6} className="jcol1">
                 <h1 className="ubuntu-regular-italic BJCian">
-                  Become an Jcian
+                  Become a Jcian
                 </h1>
                 <p className="ubuntu-regular-italic ">
                   Invest in your professional growth in the dynamic Tech industry.
-                  Join Alo Info-Tech and evolve your career with us
+                  Join JCS Info-Tech and evolve your career with us
                 </p>
                 <Button variant="info" size="lg">Explore Openings</Button>{' '}
               </Col>
